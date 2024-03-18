@@ -1,0 +1,25 @@
+# Ignore virtual environment
+.venv/
+
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment configuration files
+.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore local development settings
+*.sqlite3
+*.pyc
+*.bak
+*.swp
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
