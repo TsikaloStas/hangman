@@ -1,12 +1,8 @@
 import random
+from catchwords import dict_words
 
 def hangman():
     print('Welcome to the Hangman game!')
-
-    dict_words = {'color': ['red', 'blue', 'yellow', 'green'],
-                  'job': ['doctor', 'carpenter', 'teacher', 'salesman'],
-                  'figure': ['triangle', 'circle', 'square'],
-                  'food': ['burger', 'pasta', 'soup', 'porridge']}
 
     # select a random category from the dictionary
     random_key = random.choice(list(dict_words))
